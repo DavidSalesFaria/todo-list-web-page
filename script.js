@@ -15,10 +15,9 @@ function renderTodoList(){
 
         todoListHTML += `
 
-        <span class='name'>${name}</span>
+        <span class='name'><input class='checklist' type='checkbox'> ${name}</span>
         <span class='dueDate'>${dueDate}</span>
         <span>
-             
             <button class="delete-button js-delete-todo-button">Delete</button>
         </span>`
         ;
